@@ -1,0 +1,19 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 20px;
+    background: #555;
+    color: #f1f1f1;
+    z-index:1000;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  section{
+    border: 2px red solid;
+  }
