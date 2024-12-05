@@ -17,3 +17,40 @@ header {
   section{
     border: 2px red solid;
   }
+  item .container{
+border: 2px orange solid;
+display: flex;
+width: 75%;
+justify-content: space-evenly;
+flex-wrap: wrap;
+  }
+  item card{
+border: 2px green solid;
+display: flex;
+flex-direction: column;
+justify-content: center;
+aligin-items: center;
+margin: 20px;
+padding: 10px;
+box-shadow: 0 2px 5px rgba(o, o, o, o.1);
+
+
+  }
+  item header{
+padding-top: 10px;
+padding-bottom: 10px;
+display: flex;
+font-size: 30px;
+font-weight: bold;
+  }
+
+  item-footer{
+
+  }
+  items-container{
+border-radius: 50%;
+height: 200px;
+width: 200px;
+object-fit: cover;
+border: 5px solid salmon;
+  }
